@@ -92,23 +92,16 @@ template: | private RecyclerView $view$;
 <p></p>
 | mostv  | Decalration of most used views |
 --- | --- | ---
+template: | 
 private TextView $txtView$;
-
 private EditText $edtView$;
-
 private Button $button$;
-
 private ImageButton $imgBtn$;
-
 private ImageView $imgView$;
-
 private RadioButton $radioBtn$;
-
 private CheckBox $chBox$;
-
 private Spinner $spinner$;
-
-private RecyclerView $recView$;
+private RecyclerView $recView$;|
 <p></p>
 
 #### Add/Edit/Remove
