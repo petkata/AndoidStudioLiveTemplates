@@ -7,13 +7,13 @@ Copy AndoidViewBindings.xml to the directory of Android Studio
 and restart Andoid Studio if already running.
 
 ### List of templates:
-#### * Logs
+#### - Logs
 | lge  | Error log message |
 --- | ---
 template: | Log.e("$tag$","$msg$");
 <p></p>
 
-#### * FindViewById:
+#### - FindViewById:
 
 | txt  | TextVIew findViewById with cast |
 --- | --- | ---
@@ -52,7 +52,7 @@ template: | $view$ = (Spinner) findViewById(R.id.$resId$);
 template: | $view$ = (RecyclerView) findViewById(R.id.$resId$);
 <p></p>
 
-#### * Decalration of views:
+#### - Decalration of views:
 
 | ptxt  | Declaration private TextView |
 --- | --- | ---
