@@ -92,7 +92,7 @@ template: | private RecyclerView $view$;
 <p></p>
 | mostv  | Decalration of most used views |
 --- | --- | ---
-template: | private TextView $txtView$; \s\s private EditText $edtView$; \s\s private Button $button$; \s\s private ImageButton $imgBtn$; \s\s private ImageView $imgView$; \s\s private RadioButton $radioBtn$; \s\s private CheckBox $chBox$; \s\s private Spinner $spinner$; \s\s private RecyclerView $recView$;
+template: | private TextView $txtView$; \s\s return private EditText $edtView$; \s\s private Button $button$; \s\s private ImageButton $imgBtn$; \s\s private ImageView $imgView$; \s\s private RadioButton $radioBtn$; \s\s private CheckBox $chBox$; \s\s private Spinner $spinner$; \s\s private RecyclerView $recView$;
 <p></p>
 
 #### Add/Edit/Remove
