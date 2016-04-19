@@ -14,7 +14,7 @@ template: | Log.e("$tag$","$msg$");
 <p></p>
 
 #### - <a name="declaration"></a> Decalration of views:
-
+##### Classes are imported automatically !
 | ptxt  | Declaration private TextView |
 --- | --- | ---
 template: | private TextView $view$;
