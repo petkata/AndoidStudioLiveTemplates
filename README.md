@@ -3,21 +3,24 @@
 
 ### How to import:
 Copy AndoidViewBindings.xml to the directory of Android Studio
- <b>win7: </b> C:\Users\<username>\.AndroidStudio1.5\config\templates
+ <p><b>win7: </b> C:\Users\<username>\.AndroidStudio1.5\config\templates </p>
 and restart Andoid Studio if already running.
 
 ### List of templates:
 #### Logs
 | lge  | Error log message |
+--- | --- | ---
 Log.e("$tag$","$msg$");
 <p></p>
 
 #### FindViewById:
 
 | txt  | TextVIew findViewById with cast |
+--- | --- | ---
 $view$ = (TextView) findViewById(R.id.$resId$);
 <p></p>
 | edt  | EditText findViewById with cast |
+--- | --- | ---
 $view$ = (EditText) findViewById(R.id.$resId$);
 <p></p>
 | btn  | Button findViewById with cast |
