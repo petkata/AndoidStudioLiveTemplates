@@ -1,0 +1,168 @@
+<templateSet group="AndoidViewBindings">
+  <template name="btn" value="$view$ = (Button) findViewById(R.id.$resId$);" description="Button findViewById with cast" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="resId" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="edt" value="$view$ = (EditText) findViewById(R.id.$resId$);" description="EditText findViewById with cast" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="resId" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="txt" value="$view$ = (TextView) findViewById(R.id.$resId$);" description="TextVIew findViewById with cast" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="resId" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="img" value="$view$ = (ImageView) findViewById(R.id.$resId$);" description="ImageView findViewById with cast" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="resId" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="imb" value="$view$ = (ImageButton) findViewById(R.id.$resId$);" description="ImageButton findViewById with cast" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="resId" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="rad" value="$view$ = (RadioButton) findViewById(R.id.$resId$);" description="RadioButton findViewById with cast" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="resId" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="cb" value="$view$ = (CheckBox) findViewById(R.id.$resId$);" description="CheckBox findViewById with cast" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="resId" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="recv" value="$view$ = (RecyclerView) findViewById(R.id.$resId$);" description="RecyclerView findViewById with cast support.v7" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="resId" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="mostv" value="private TextView $txtView$;&#10;private EditText $edtView$;&#10;private Button $button$;&#10;private ImageButton $imgBtn$;&#10;private ImageView $imgView$;&#10;private RadioButton $radioBtn$;&#10;private CheckBox $chBox$;&#10;private Spinner $spinner$;&#10;private RecyclerView $recView$;" description="Decalration of most used views" toReformat="true" toShortenFQNames="true">
+    <variable name="txtView" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="edtView" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="imgBtn" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="imgView" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="radioBtn" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="chBox" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="spinner" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="recView" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="ptxt" value="private TextView $view$;" description="Declaration private TextView" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pedt" value="private EditText $view$;" description="Declaration private EditText" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pbtn" value="private Button $view$;" description="Declaration private Button" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pimb" value="private ImageButton $view$;" description="Declaration private ImageButton" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pimg" value="private ImageView $view$;" description="Declaration private ImageView" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="prad" value="private RadioButton $view$;" description="Declaration private RadioButton" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pchb" value="private CheckBox $view$;" description="Declaration private CheckBox" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="pspn" value="private Spinner $view$;" description="Declaration private Spinner" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="precv" value="private RecyclerView $view$;" description="Declaration private RecyclerView support.v7" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="lge" value="Log.e(&quot;$tag$&quot;,&quot;$msg$&quot;);" description="Error log message" toReformat="true" toShortenFQNames="true">
+    <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="msg" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="spn" value="$view$ = (Spinner) findViewById(R.id.$resId$);" description="Spinner findViewById with cast" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="resId" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+</templateSet>
