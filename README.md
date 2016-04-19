@@ -6,53 +6,14 @@ Copy AndoidViewBindings.xml to the directory of Android Studio
  <p><b>win7: </b> C:\Users\\\<username>\\\.AndroidStudio1.5\config\templates </p>
 and restart Andoid Studio if already running.
 
-### List of templates:
-#### - Logs
+### List of templates: [Logs](#logs), [Decalration of views](#declaration), [FindViewById](#fvbid)
+#### - <a name="logs"></a> Logs
 | lge  | Error log message |
 --- | ---
 template: | Log.e("$tag$","$msg$");
 <p></p>
 
-#### - FindViewById:
-
-| txt  | TextVIew findViewById with cast |
---- | --- | ---
-template: | $view$ = (TextView) findViewById(R.id.$resId$);
-<p></p>
-| edt  | EditText findViewById with cast |
---- | --- | ---
-template: | $view$ = (EditText) findViewById(R.id.$resId$);
-<p></p>
-| btn  | Button findViewById with cast |
---- | --- | ---
-template: | $view$ = (Button) findViewById(R.id.$resId$);
-<p></p>
-| imb  | ImageButton findViewById with cast |
---- | --- | ---
-template: | $view$ = (ImageButton) findViewById(R.id.$resId$);
-<p></p>
-| img  | ImageView findViewById with cast |
---- | --- | ---
-template: | $view$ = (ImageView) findViewById(R.id.$resId$);
-<p></p>
-| rad  | RadioButton findViewById with cast |
---- | --- | ---
-template: | $view$ = (RadioButton) findViewById(R.id.$resId$);
-<p></p>
-| cb  | CheckBox findViewById with cast |
---- | --- | ---
-template: | $view$ = (CheckBox) findViewById(R.id.$resId$);
-<p></p>
-| spn  | Spinner findViewById with cast |
---- | --- | ---
-template: | $view$ = (Spinner) findViewById(R.id.$resId$);
-<p></p>
-| recv  | RecyclerView findViewById with cast support.v7 |
---- | --- | ---
-template: | $view$ = (RecyclerView) findViewById(R.id.$resId$);
-<p></p>
-
-#### - Decalration of views:
+#### - <a name="declaration"></a> Decalration of views:
 
 | ptxt  | Declaration private TextView |
 --- | --- | ---
@@ -112,6 +73,45 @@ private Spinner $spinner$;
 
 private RecyclerView $recView$;
 ```
+<p></p>
+
+#### - <a name="fvbid"></a> FindViewById:
+
+| txt  | TextVIew findViewById with cast |
+--- | --- | ---
+template: | $view$ = (TextView) findViewById(R.id.$resId$);
+<p></p>
+| edt  | EditText findViewById with cast |
+--- | --- | ---
+template: | $view$ = (EditText) findViewById(R.id.$resId$);
+<p></p>
+| btn  | Button findViewById with cast |
+--- | --- | ---
+template: | $view$ = (Button) findViewById(R.id.$resId$);
+<p></p>
+| imb  | ImageButton findViewById with cast |
+--- | --- | ---
+template: | $view$ = (ImageButton) findViewById(R.id.$resId$);
+<p></p>
+| img  | ImageView findViewById with cast |
+--- | --- | ---
+template: | $view$ = (ImageView) findViewById(R.id.$resId$);
+<p></p>
+| rad  | RadioButton findViewById with cast |
+--- | --- | ---
+template: | $view$ = (RadioButton) findViewById(R.id.$resId$);
+<p></p>
+| cb  | CheckBox findViewById with cast |
+--- | --- | ---
+template: | $view$ = (CheckBox) findViewById(R.id.$resId$);
+<p></p>
+| spn  | Spinner findViewById with cast |
+--- | --- | ---
+template: | $view$ = (Spinner) findViewById(R.id.$resId$);
+<p></p>
+| recv  | RecyclerView findViewById with cast support.v7 |
+--- | --- | ---
+template: | $view$ = (RecyclerView) findViewById(R.id.$resId$);
 <p></p>
 
 #### Add/Edit/Remove
