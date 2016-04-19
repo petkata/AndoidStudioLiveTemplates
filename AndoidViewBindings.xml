@@ -76,7 +76,7 @@
       <option name="COMPLETION" value="false" />
     </context>
   </template>
-  <template name="mostv" value="private TextView $txtView$;&#10;private EditText $edtView$;&#10;private Button $button$;&#10;private ImageButton $imgBtn$;&#10;private ImageView $imgView$;&#10;private RadioButton $radioBtn$;&#10;private CheckBox $chBox$;&#10;private Spinner $spinner$;&#10;private RecyclerView $recView$;" description="Decalration of most used views" toReformat="true" toShortenFQNames="true">
+  <template name="mostv" value="private android.widget.TextView $txtView$;&#10;private android.widget.EditText $edtView$;&#10;private android.widget.Button $button$;&#10;private android.widget.ImageButton $imgBtn$;&#10;private android.widget.ImageView $imgView$;&#10;private android.widget.RadioButton $radioBtn$;&#10;private android.widget.CheckBox $chBox$;&#10;private android.widget.Spinner $spinner$;&#10;private android.support.v7.widget.RecyclerView $recView$;" description="Decalration of most used views" toReformat="true" toShortenFQNames="true">
     <variable name="txtView" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="edtView" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="button" expression="" defaultValue="" alwaysStopAt="true" />
@@ -93,55 +93,55 @@
       <option name="COMPLETION" value="false" />
     </context>
   </template>
-  <template name="ptxt" value="private TextView $view$;" description="Declaration private TextView" toReformat="true" toShortenFQNames="true">
+  <template name="ptxt" value="private android.widget.TextView $view$;" description="Declaration private TextView" toReformat="true" toShortenFQNames="true">
     <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="pedt" value="private EditText $view$;" description="Declaration private EditText" toReformat="true" toShortenFQNames="true">
+  <template name="pedt" value="private android.widget.EditText $view$;" description="Declaration private EditText" toReformat="true" toShortenFQNames="true">
     <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="pbtn" value="private Button $view$;" description="Declaration private Button" toReformat="true" toShortenFQNames="true">
+  <template name="pbtn" value="private android.widget.Button $view$;" description="Declaration private Button" toReformat="true" toShortenFQNames="true">
     <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="pimb" value="private ImageButton $view$;" description="Declaration private ImageButton" toReformat="true" toShortenFQNames="true">
+  <template name="pimb" value="private android.widget.ImageButton $view$;" description="Declaration private ImageButton" toReformat="true" toShortenFQNames="true">
     <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="pimg" value="private ImageView $view$;" description="Declaration private ImageView" toReformat="true" toShortenFQNames="true">
+  <template name="pimg" value="private android.widget.ImageView $view$;" description="Declaration private ImageView" toReformat="true" toShortenFQNames="true">
     <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="prad" value="private RadioButton $view$;" description="Declaration private RadioButton" toReformat="true" toShortenFQNames="true">
+  <template name="prad" value="private android.widget.RadioButton $view$;" description="Declaration private RadioButton" toReformat="true" toShortenFQNames="true">
     <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="pchb" value="private CheckBox $view$;" description="Declaration private CheckBox" toReformat="true" toShortenFQNames="true">
+  <template name="pchb" value="private android.widget.CheckBox $view$;" description="Declaration private CheckBox" toReformat="true" toShortenFQNames="true">
     <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="pspn" value="private Spinner $view$;" description="Declaration private Spinner" toReformat="true" toShortenFQNames="true">
+  <template name="pspn" value="private android.widget.Spinner $view$;" description="Declaration private Spinner" toReformat="true" toShortenFQNames="true">
     <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="precv" value="private RecyclerView $view$;" description="Declaration private RecyclerView support.v7" toReformat="true" toShortenFQNames="true">
+  <template name="precv" value="private android.support.v7.widget.RecyclerView $view$;" description="Declaration private RecyclerView support.v7" toReformat="true" toShortenFQNames="true">
     <variable name="view" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
