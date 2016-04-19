@@ -3,7 +3,7 @@
 
 ### How to import:
 Copy AndoidViewBindings.xml to the directory of Android Studio
- <p><b>win7: </b> C:\Users\<username>\.AndroidStudio1.5\config\templates </p>
+ <p><b>win7: </b> C:\Users\\<username>\\.AndroidStudio1.5\config\templates </p>
 and restart Andoid Studio if already running.
 
 ### List of templates:
