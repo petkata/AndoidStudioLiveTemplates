@@ -147,7 +147,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="lge" value="Log.e(&quot;$tag$&quot;,&quot;$msg$&quot;);" description="Error log message" toReformat="true" toShortenFQNames="true">
+  <template name="lge" value="android.util.Log.e(&quot;$tag$&quot;,&quot;$msg$&quot;);" description="Error log message" toReformat="true" toShortenFQNames="true">
     <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="msg" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
